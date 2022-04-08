@@ -1,0 +1,65 @@
+main {
+    background-color: aliceblue;
+    display: grid;
+    gap: 10px;
+    height: 800px;
+}
+#aboutMe p {
+    font-size: medium;
+    color: #000;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:x-large;
+}
+.video, .achievements, .contact {
+    font-size: x-large;
+}
+tr:hover {
+    background-color: gray;
+}
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 100%;
+}
+nav a {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    list-style: inside;
+    margin: 5px;
+}
+#arrow {
+    margin-right: auto;
+    transform: rotate(270deg);
+    width: 60px;
+    height: 20px;
+    transition: all 2s linear 0s;
+}
+footer p {
+    display: inline-block
+}
+@media screen and (min-width: 750px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 3fr 1fr;
+    }
+    #aboutMe {
+        grid-column: 1/-1;
+    }
+    aside {
+        grid-column: 1/-1;
+    }
+}

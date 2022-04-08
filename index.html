@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Raj Bhatti's Resume</title>
@@ -24,139 +24,159 @@
 
     <!--Menu Bar-->
     <header>
-        <h1>Raj Bhatti</h1>
-        <p>Hi Everybody, my name is Raj Bhatti and this is my resume.</p>
         <nav>
-            <a>Education</a>
-            <a>Achievements</a>
-            <a>Courses Taken</a>
-            <a>Skills & Hobbies</a>
-            <a>Contact</a>
+            <a href="index.html">Home</a>
+            <a href="#contactPart">Contact</a>
         </nav>
     </header>
 
-    <!--Main content-->
+    <!--Main Content-->
     <main>
-        <section>
-            <div>
-                <h2>About Me</h2>
-                <p>My name is Raj Bhatti, I am first year student enrolled in the Computer Information Systems program at Mount Royal University.</p>
-                <p>I have always been intrigued by computers and had an interest in business, so the Computer Information Systems program is perfect for me.</p>
-                <P>My plan is to complete my degree and hopefully in the future make use of it and work for a prestigious company such as yours in the near future.</P>
-            </div>
+        <section id="aboutMe">
+            <h1>About Me</h1>
+            <p>Hi Everbody, my name is Raj Bhatti, and I am a first year student in the bachelor of Computer Information Systems 
+            Program at Mount Royal University. I choose this program as I have always been interested in computers and liked many 
+            aspects of the business world, so having a program that combines them, like BCIS was perfect for me. I plan to complete 
+            my degree and use it to get a job in the future that will make use of the skills that I currently have and will learn from the courses I take.
+            Prior to attending Mount Royal University, I was a high school student at Lester B Pearson High School. Some things I like to do are watching hockey,
+            my favorite team is the Calgary Flames, I also like spending time with my family and friends. Prior to completing this resume, I have never held a job 
+            but, I do have Volunteer experience, and some achievements, most notably, making the dean's list in the fall semester. 
+        </p>
         </section>
 
         <section>
-            <div>
-                <h3>Education</h3>
-                <ul>
-                <li><p>Mount Royal University - BCIS Program (2021-)</li></p>
-                <li><p>Lester B Pearson High School - High School Degree</li></p>
-                </ul>
-            </div>
-        </section>
+            <h2>Education</h2>
+            <ul>
+                <li>Mount Royal University (BCIS) - 2021/09 (Started/Ongoing)   <img id="arrow" src="image/arrow.png"></li> 
+                <li>Lester B Pearson High School (Diploma) - 2021/06 (Completed)</li>
+            </ul>
 
-        <section>
-            <div>
-                <h4>Achievements</h4>
-            </div>
-        </section>
+            <div> 
+                <h3>Skills</h3>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Time Management</li>
+                        <li>Organization</li>
+                        <li>Leadership</li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h4>Hobbies</h4>
+                        <ul>
+                            <li>Watch Sports</li>
+                            <li>Play Sports</li>
+                            <li>Listen To Music</li>
+                            <li>Hang Out With Friends</li>
+                        </ul>
+                </div>
 
-        <article>
-            <div>
-                <h5>Courses Taken</h5>
-                <table>
-                    <caption></caption>
-                        <tr>
-                            <th>Course Number</th>
-                            <th>Course Name</th>
-                        </tr>
-                        <tr>
-                            <td>COMP 1501</td>
-                            <td>Programming 1:Introduction to Problem Solving and Programming</td>
-                        </tr>
-                        <tr>
-                            <td>GNED 1101</td>
-                            <td>Science and Mathematical Literacy</td>
-                        </tr>
-                        <tr>
-                            <td>GNED 1304</td>
-                            <td>Communities and Societies</td>
-                        </tr>
-                        <tr>
-                            <td>HRES 2170</td>
-                            <td>Introduction to Human Resources</td>
-                        </tr>
-                        <tr>
-                            <td>COMP 1502</td>
-                            <td>Programming 2:Object-Oriented Programming</td>
-                        </tr>
-                        <tr>
-                            <td>COMP 2511</td>
-                            <td>Web 1:Client Development</td>
-                        </tr>
-                        <tr>
-                            <td>MGMT 2130</td>
-                            <td>Management Principles and Practices</td>
-                        </tr>
-                        <tr>
-                            <td>MKTG 2150</td>
-                            <td>Introduction to Marketing</td>
-                        </tr>
-                </table>
-            </div>
-        </article>
-
-        <section>
-            <div>
-                <h6>Hobbies</h6>
-                <ol>
-                    <li>Watching sports.</li>
-                    <li>Playing sports.</li>
-                    <li>Playing video games.</li>
-                    <li>Hanging out with friends.</li>
-                    <li>Listening to music.</li>
-                </ol>
-            </div>
-        </section>
-    </main>
-
-    <section>
-        <div>
-        <h7>Contact Me</h7>
-        <p>Please fill out the form below.</p>
-        <form method="post" action="mailto:dbhat325@mtroyal.ca">
-            <fieldset>
-                <label for="subject">Subject:
-                <input id="subject" type="text" name="subject" required>
-                </label>
-                <p>
-                <label>Inquiry:
-                    <textarea name="Inquiry" rows="5" cols="23" required></textarea>
-                </label>
-                </p>
-                <label for="email">Email:
-                    <input id="email" type="email" name="email" placeholder="name@domain.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
-                </label>
-                <label for="phone">Phone:
-                    <input id="phone" type="tel" name="telephone" placeholder="123-123-1234" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}">
-                </label>
-                <label for="date">Date:
-                    <input id="date" type="date" name="date">
-                </label>
-            </fieldset>
             <p>
-                <input type="submit" value="Submit">
-                <input type="reset" value="Clear">
+              <h5>Volunteer Experience</h5>
+                <ul>
+                    <li>Volunteer at Sky Pointe Nursing Home</li>
+                    <li>Volunteer at M&M Meat Shops BBQ</li>
+                </ul>
             </p>
-        </form>
-        </div>
-    </section>
 
-    <!--Footer-->
-    <footer>&copy Raj Bhatti's Resume
-        <a href="#topOfPage">Back to top of page</a>
-    </footer>
+            <p>
+                <h6>Personal Information</h6>
+                <ul>
+                    <li>Phone Number - 123-123-1234</li>
+                    <li>Email - dbhat325@mtroyal.ca</li>
+                </ul>
+            </p>
 
+        </section>
+
+        <section>
+            <h6>Courses Taken</h6>
+            <table>
+                <caption>Table 1 shows the course number and name for the classes I have taken</caption>
+                    <tr>
+                        <th>Course Number</th>
+                        <th>Course Name</th>
+                    </tr>
+                    <tr>
+                        <td>COMP 1501</td>
+                        <td>Programming 1:Introduction to Problem Solving and Programming</td>
+                    </tr>
+                    <tr>
+                        <td>GNED 1101</td>
+                        <td>Science and Mathematical Literacy</td>
+                    </tr>
+                    <tr>
+                        <td>GNED 1304</td>
+                        <td>Communities and Societies</td>
+                    </tr>
+                    <tr>
+                        <td>HRES 2170</td>
+                        <td>Introduction to Human Resources</td>
+                    </tr>
+                    <tr>
+                        <td>COMP 1502</td>
+                        <td>Programming 2:Object-Oriented Programming</td>
+                    </tr>
+                    <tr>
+                        <td>COMP 2511</td>
+                        <td>Web 1:Client Development</td>
+                    </tr>
+                    <tr>
+                        <td>MGMT 2130</td>
+                        <td>Management Principles and Practices</td>
+                    </tr>
+                    <tr>
+                        <td>MKTG 2150</td>
+                        <td>Introduction to Marketing</td>
+                    </tr>
+            </table>
+
+            <div>
+                <p class="video">Video About Me</p>
+                <iframe width="650" height="240"
+                 src="https://www.loom.com/embed/d91fb0ae3242401880d2907a2a8316a1"></iframe>
+                </iframe>
+            </div>
+        </section>
+
+        <aside>
+            <a id="contactPart"></a>
+            <p class="Contact"></p>
+            <div>
+                <h1><strong>Contact Me</strong></h1>
+                <p>Please fill out the form below if you wish to contact me.</p>
+                <form method="post" action="mailto:dbhat325@mtroyal.ca">
+                    <fieldset>
+                        <label for="subject">Subject:
+                        <input id="subject" type="text" name="subject" required>
+                        </label>
+                        <p>
+                        <label>Inquiry:
+                            <textarea name="Inquiry" rows="5" cols="23" required></textarea>
+                        </label>
+                        </p>
+                        <label for="email">Email:
+                            <input id="email" type="email" name="email" placeholder="name@domain.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                        </label>
+                        <label for="phone">Phone:
+                            <input id="phone" type="tel" name="telephone" placeholder="123-123-1234" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}">
+                        </label>
+                        <label for="date">Date:
+                            <input id="date" type="date" name="date">
+                        </label>
+                    </fieldset>
+                    <p>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Clear">
+                    </p>
+                </form>
+                </div>
+        </aside>
+
+        <!--Footer-->
+        <footer>&copy Raj Bhatti's Resume;
+        </footer>
+
+    </main>
 </body>
 </html>
